@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+	<path d="M 66.298 46.342 l 2.939 -0.966 l 19.747 -6.488 c 1.354 -0.445 1.354 -2.36 0 -2.805 L 49.333 23.055 c -2.815 -0.925 -5.852 -0.925 -8.667 0 L 1.015 36.083 c -1.354 0.445 -1.354 2.36 0 2.805 l 19.677 6.465 l 3.009 0.989 L 66.298 46.342 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(54,94,125); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 66.298 62.757 v -22.68 c 0 -2.684 -9.535 -4.859 -21.298 -4.859 s -21.298 2.176 -21.298 4.859 v 6.265 v 16.415" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(71,123,158); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<ellipse cx="44.998" cy="62.759" rx="21.298" ry="4.859" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(54,94,125); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) "/>
+	<path d="M 80.165 51.306 V 33.185 c -0.682 -0.423 -1.364 -0.647 -2.045 -0.672 v 18.793 c -1.907 0.463 -3.331 2.172 -3.331 4.219 v 12.09 c 0 0.565 0.457 1.023 1.023 1.023 h 6.662 c 0.565 0 1.023 -0.457 1.023 -1.023 v -12.09 C 83.496 53.478 82.072 51.769 80.165 51.306 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,224,125); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+</g>
+</svg>

@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url(/images/convobg.jpg);
+  /* background-color: rgba(0, 0, 0, 0.828); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+/* #page-container {
+  height: 100vh;
+  width: 100vw;
+} */
+
+/* Login Screens  */
+
+#login-Wrapper {
+  width: 100%;
+  position: relative;
+  font-family: "poppins", sans-serif;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  background-image: linear-gradient(45deg, #a8beed 0%, #fed6e3ed 100%);
+  /* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); */
+  /* display: none; */
+}
+
+.login-nav {
+  /* position: absolute; */
+  /* top: 5px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.login-nav img {
+  width: 50px;
+}
+
+.login-nav p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.bgImg {
+  height: 650px;
+}
+
+.login-container {
+  background-color: white;
+  /* margin-right: 10rem; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.login-container h2,
+.login-container p {
+  text-align: center;
+  font-size: 40px;
+}
+
+.login-container p {
+  color: rgb(97, 95, 95);
+  font-size: 22px;
+  margin: 1rem 0px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 15px 10px;
+  margin: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.password-container{
+  position:relative;
+}
+.password-container i{
+  position:absolute;
+  right:25px;
+  top:25px;
+  z-index:2;
+  cursor:pointer;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 15px 10px;
+  margin: 30px 0px 20px 0px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* --------------Generate Certificate page 
+Css (Wrapper 1)--------- */
+
+.wrapper1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  overflow-y: hidden;
+  display: none;
+}
+
+.student-addData-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.generation-form {
+  position: relative;
+  /* width: 100%; */
+  height: 400px;
+  display: flex;
+  align-items: center;
+  /* justify-content: end; */
+  /* padding-right: 6rem; */
+  z-index: 2;
+}
+
+.student-info {
+  width: 500px;
+  display: flex;
+  margin-top: 4rem;
+  padding: 2rem;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 0.6rem;
+  background-image: linear-gradient(135deg, #e1ebf9df 0%, #c5d4edda 100%);
+  display: none;
+}
+
+.st-data {
+  /* position: absolute; */
+  /* left: 4px; */
+  width: 500px;
+  /* height: 250px; */
+  font-size: 20px;
+  display: flex;
+  /* margin-top: 3.5rem; */
+  padding: 2rem;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 0.6rem;
+  background-image: linear-gradient(135deg, #e1ebf9df 0%, #c5d4edda 100%);
+  box-shadow: 0px 0px 5px black;
+}
+
+.input-field-styles {
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  height: 45px;
+  width: 100%;
+  margin-block: -0.5vh; /* ******Remove this if all the input fields overlap ****** */
+  padding: 0 10px 0 45px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.input-field-styles:hover,
+.input-field-styles:focus {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+::-webkit-input-placeholder {
+  color: #000;
+}
+
+.input-container i {
+  position: relative;
+  /* top: -35px; */
+  top: -28px;
+  left: 17px;
+  color: black;
+  font-size: 20px;
+}
+
+.search-Student {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.search-Student:hover {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.generate-btn {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.generate-btn:hover {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  padding: 0 3vw;
+  margin-block: 1.5vh;
+}
+
+.nav {
+  position: fixed;
+  top: 2;
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  line-height: 100px;
+  padding: 0px 8rem;
+  background: linear-gradient(rgb(184, 222, 242), transparent);
+  z-index: 100;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-logo img {
+  width: 80px;
+}
+
+.nav-logo p {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-menu {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-menu span {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-menu span:hover {
+  transform: scale(1.01);
+  transition: scale 1s linear;
+}
+
+/* ---------------- Wrapper 2 ------------------ */
+
+.form-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-right: 6rem; */
+  overflow-y: hidden;
+  z-index: 100;
+}
+.details-container {
+  /* position: absolute; */
+  /* left: 4px; */
+  width: 500px;
+  display: none;
+  margin-top: 4rem;
+  padding: 2rem;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 0.6rem;
+  background-image: linear-gradient(135deg, #e1ebf9df 0%, #c5d4edda 100%);
+  z-index: 500;
+  box-shadow: 0px 0px 5px black;
+
+}
+
+header {
+  color: #050505;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.input-field {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  height: 42px;
+  width: 100%;
+  margin-block: -0.5vh; /* ******Remove this if all the input fields overlap ****** */
+  padding: 0 10px 0 45px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.2s ease;
+}
+.input-field:hover,
+.input-field:focus {
+  background: rgba(255, 255, 255, 0.7);
+}
+::-webkit-input-placeholder {
+  color: #000;
+}
+.input-box i {
+  position: relative;
+  /* top: -35px; */
+  top: -27px;
+  left: 17px;
+  color: black;
+  font-size: 18px;
+}
+.submit {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.submit:hover {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.setActive {
+  border-bottom: 2px solid black;
+}
+
+/* Media Query */
+
+/* @media only screen and (max-width: 786px) {
+  .nav-button {
+    display: none;
+  }
+  .nav-menu.responsive {
+    top: 100px;
+  }
+  .nav-menu {
+    position: absolute;
+    top: -800px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 90vh;
+    backdrop-filter: blur(20px);
+    transition: 1s;
+  }
+  .nav-menu ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-menu-btn {
+    display: block;
+  }
+  .nav-menu-btn i {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .nav-menu-btn i:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+}
+@media only screen and (max-width: 540px) {
+  .wrapper2 {
+    height: 100vh;
+  }
+  .form-box {
+    width: 100%;
+    height: 500px;
+  }
+  .details-container {
+    width: 100%;
+    padding: 0 20px;
+  }
+} */
+
+/*  TypeWrite Effect  */
+
+.typewritter {
+  margin: auto 0px;
+  padding: 2rem;
+  height: 100%;
+  width: 35%;
+  font-size: 60px;
+  font-weight: 600;
+  color: black;
+  line-height: 80px;
+}
+
+.role {
+  color: rgb(70, 63, 205);
+}
+
+.typewritter img {
+  display: block;
+  /* margin-top: 1rem; */
+  margin-bottom: 2rem;
+}
+
+
+#loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(241, 239, 239, 0.697);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loader img {
+  width: 50px; /* adjust size as needed */
+  height: 50px; /* adjust size as needed */
+}
+
+
+.error-message {
+  color: red !important;
+  font-size: 12px !important;
+}
+
+.error-container {
+  color: red;
+  font-weight: bold;
+}
+.success-container {
+  color : green;
+  font-weight: bold;
+  text-align: center;
+  font-size:20px;
+  margin-top: 10px;
+}
+
+.success-container img{
+  vertical-align: middle;
+}
+
+.confirmDownload{
+  display:flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 0.6rem;
+  background-image: linear-gradient(135deg, #e1ebf9df 0%, #c5d4edda 100%);
+  box-shadow: 0px 0px 5px black;
+  width:500px;
+  font-size:16px;
+  padding:2rem;
+  text-align: center;
+  display:none;
+}
+.download-button a{
+  display:inline-block;
+  text-decoration: none;
+  color:black;
+}
+.download-container{
+  position:relative;
+}
+.download-container i{
+  position:absolute;
+  right:3px;
+  top:0px;
+  font-size: 35px;
+  cursor: pointer;
+  animation: shine 1s infinite;
+}
+.download-container p{
+  margin-top: 30px;
+}
+
+@keyframes shine {
+  0% {
+    text-shadow: none;
+    box-shadow: none;
+  }
+  50% {
+    text-shadow: 0 0 5px rgba(230, 0, 0, 0.9); /* Adjust the shadow color and intensity as needed */
+    box-shadow: 0 0 10px rgba(240, 0, 0, 0.9); /* Adjust the shadow color and intensity as needed */
+  }
+  100% {
+    text-shadow: none;
+    box-shadow: none;
+  }
+}
